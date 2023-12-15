@@ -250,8 +250,14 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  /* background: #141514; */
+  /* background-color: #f0f0f0; */
+  border-bottom: 3px solid #f0f0f0;
+
   position: relative;
+  
+  margin: 0 auto;
+
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
@@ -267,7 +273,7 @@ ul {
   display: inline-block;
 }
 .cta-text h4 {
-  color: #fff;
+  color: #0e0101;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
@@ -330,7 +336,7 @@ ul {
   background: #DD4B39;
 }
 .footer-widget-heading h3 {
-  color: #fff;
+  color: #000000;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
@@ -372,9 +378,9 @@ ul {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #ff5e14;
+    background: #10b549;
     padding: 13px 20px;
-    border: 1px solid #ff5e14;
+    border: 1px solid #17b23e;
     top: 0;
 }
 .subscribe-form button i {
@@ -383,13 +389,17 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #202020;
+  background: 3px solid #f0f0f0;
+  
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
   color: #878787;
+  /* font-display: center; */
+  text-align: center;
+  width: 65rem;
 }
 .copyright-text p a{
   color: #ff5e14;
